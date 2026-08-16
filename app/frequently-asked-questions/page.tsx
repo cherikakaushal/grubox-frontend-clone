@@ -1,3 +1,7 @@
-import Accordion from '@/components/Accordion/Accordion';import ContactForm from '@/components/Form/ContactForm';import {faqItems} from '@/lib/content';
-export const metadata={title:'Frequently Asked Questions'};
-export default function FAQ(){return <><section className="section section--cream"><div className="narrow"><h1 className="section-title center">Policy of Use</h1><div className="prose"><h2>Service Charges</h2><p>A basic service fee may be charged to help maintain product quality and a smooth ordering experience.</p><h2>Refund Policy</h2><p>Refund requests can be initiated through the Grubox app, customer care, or by emailing care@grubox.in. A refund is eligible when an item is not vended successfully and is processed after approval.</p><ul><li>PayTM wallet: within 24 hours</li><li>Credit/debit card: Grubox wallet within 24 hours</li><li>Bharat QR: linked bank account within five working days</li></ul></div><h2 className="section-title center">Issue Still Not Resolved?</h2><ContactForm issue/></div></section><section className="section section--aqua"><h2 className="section-title center">Frequently Asked Questions</h2><Accordion items={faqItems}/></section></>}
+import FAQPage from '@/components/FAQPage/FAQPage';
+
+export const metadata = {title: 'Frequently Asked Questions'};
+
+export default function FrequentlyAskedQuestions() {
+  return <FAQPage/>;
+}

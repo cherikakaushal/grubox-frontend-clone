@@ -1,8 +1,16 @@
 .DS_Store
 Thumbs.db
 source-page.html
+contact-source.html
+about-source.html
+youtube-source.html
 .edge-test/
+.edge-blog/
+.chrome-blog/
+.chrome-blog-2/
+.chrome-temp/
 preview.png
+blog-live.png
 .next/
 node_modules/
 out/

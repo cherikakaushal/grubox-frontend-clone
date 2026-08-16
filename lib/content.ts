@@ -10,6 +10,10 @@ export const faqItems=[
 {q:'Which areas in Gurgaon do you serve?',a:'Major corporate hubs are covered, including Cyber City and Udyog Vihar, along with Delhi and Noida service areas.'}
 ];
 export const posts=[
+['is-a-workplace-food-franchise-better-than-a-cafe-franchise','Is a Workplace Food Franchise Better Than a Café Franchise?','Choosing the right food business for the future means comparing the traditional café model with workplace-focused food service.'],
+['why-office-campuses-are-the-future-of-food-franchising','Why Office Campuses Are the Future of Food Franchising','Modern office campuses and business hubs represent a growing opportunity for convenient food-service franchises.'],
+['mistakes-to-avoid-before-buying-a-food-franchise','Mistakes to Avoid Before Buying a Food Franchise','A smart franchise investment starts with evaluating the model, support, location, costs, and long-term demand.'],
+['how-to-choose-the-right-food-franchise-brand','How to Choose the Right Food Franchise Brand','Choose a franchise that matches your budget, goals, location, and preferred customer environment.'],
 ['vending-machine-business-india','Vending Machine Business in India: Opportunity, Growth & How to Get Started','The vending machine industry in India is evolving with workplace habits, demand for convenience and smart technology.'],
 ['snack-drink-vending-machines','Snack and Drink Vending Machines: The All-in-One Office Solution','Combo vending machines give modern workplaces flexible access to snacks and refreshing beverages.'],
 ['corporate-food-solutions','Why Vending Machines Are Replacing Office Cafeterias','Smart corporate food solutions can lower operating complexity while improving availability.'],

@@ -1,17 +1,26 @@
-# Grubox Frontend Recreation
+# Grubox Frontend Recreation — Next.js
 
-Responsive, frontend-only recreation of the Grubox homepage, built with plain HTML, CSS, and JavaScript.
+Responsive, multi-page frontend recreation of the Grubox website built with Next.js, React, TypeScript and CSS Modules.
 
 ## Run locally
 
-Open `index.html` directly, or serve the directory with any static server:
-
 ```bash
-npx serve .
+npm install
+npm run dev
 ```
 
 ## Deploy
 
-The project is compatible with GitHub Pages. In the repository settings, enable Pages from the `main` branch and root directory.
+Production validation:
 
-> This recreation references publicly served visual assets from the original Grubox website and is intended for authorized frontend reproduction.
+```bash
+npm run build
+```
+
+## Structure
+
+- `app/` — App Router pages and global design tokens
+- `components/` — shared header, footer, forms, accordions, and page sections
+- `lib/` — centralized assets and content data
+
+> This recreation references publicly served visual assets from the original Grubox website and is intended for authorized frontend reproduction. Forms are frontend demonstrations and do not send data to a backend.

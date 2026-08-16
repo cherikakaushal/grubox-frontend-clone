@@ -1,0 +1,2 @@
+'use client';import {useState} from 'react';import s from './Accordion.module.css';
+export default function Accordion({items}:{items:{q:string,a:string}[]}){const [open,setOpen]=useState<number|null>(0);return <div className={s.list}>{items.map((x,i)=><div className={s.item} key={x.q}><button aria-expanded={open===i} onClick={()=>setOpen(open===i?null:i)}><span>{x.q}</span><b>{open===i?'−':'+'}</b></button>{open===i&&<p>{x.a}</p>}</div>)}</div>}
